@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body class="container py-5">
+
+  <h1>
+    js Application
+  </h1>
+
+  <section>
+
+    <div class="mb-3">
+      <label for="LinkNameInput" class="form-label">Link Name</label>
+      <input type="text" name="" id="LinkNameInput" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label for="TextAreaContent" class="form-label">Link</label>
+      <textarea style="resize: none;" class="form-control mb-2" name="" id="TextAreaContent"
+        rows="3"></textarea>
+      <button type="button" onclick="creatNewLink()" class="btn btn-primary">Save</button>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Link Name</th>
+            <th scope="col">Link</th>
+            <th scope="col">Handel</th>
+          </tr>
+        </thead>
+        <tbody id="tableView">
+          
+          <!-- <tr>
+            <th scope="row">1</th>
+            <td>FaceBook</td>
+            <td><a href="https://www.facebook.com/" target="_blank">https://www.facebook.com/</a></td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-warning">Edit</button>
+            </td>
+          </tr> -->
+
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <!-- <button onclick="alert('Wornning Message')">click Me</button> -->
+
+
+  <script src="./js/all.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+  <!-- -------------- -->
+
+
+</body>
+
+</html>
